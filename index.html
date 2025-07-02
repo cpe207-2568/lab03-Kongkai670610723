@@ -4,6 +4,116 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
+    
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" 
+    crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" 
+    crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+
+
   </head>
-  <body></body>
+  <body class="p-3 mb-2 bg-dark text-white">
+
+
+
+    <!-- Homepage -->
+    <h1 class="text-center fw-semibold bg-transparent display-3 mb-3 rounded text-un">My Portfolio</h1>
+
+    
+    <nav class="navbar navbar-expand-lg bg-body-tertiary rounded">
+      <div class="d-flex justify-content-center align-items-center mx-auto gap-3">
+      </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav nav nav-underline">
+            <li class="nav-item mx-4">
+              <a class="nav-link active" aria-current="page" href="index.html" >Home</a>
+            </li>
+            <li class="nav-item mx-4">
+              <a class="nav-link" href="Gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item mx-4">
+              <a class="nav-link" href="exp.html">Experience</a>
+            </li>
+            <li class="nav-item mx-4">
+              <a class="nav-link" href="contact.html">contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+
+
+    <br><br>
+    
+
+
+    <div class="d-flex justify-content-center align-items-center mx-auto gap-3" style="max-width: 700px;">
+
+
+      <!--Profile-->
+      <img src="/image/picture.jpg" class=" rounded-circle" width="150px" height="150px" style="object-fit: cover;">
+
+
+      
+      <div class="d-none d-sm-block">
+
+        <!--Name-->
+        <div class="display-6 mb-3">Phurin Inthajak</div>
+
+        <!--Information-->
+        <div class="text-secondary">
+        "Hi my name is Kong. I graduated from Chiangmai University. I want to earn an A grade in course 261207.
+        <br> 
+        Although I am not yet very good at coding, I will do my best and work hard to improve."
+        </div>
+      </div>
+    </div>
+    
+    <br><br>
+    <p class="text-center fs-1 fw-medium">Skills</p>
+    <!--Skill 1-->
+    <div style="max-width:700px" class="mx-auto px-3">
+      <div class="d-flex border mb-3 shadow-sm my-round-all rounded">
+        <div class="my-round-left"><img src="/image/pp.jpg" width="150px" height="150px" style="object-fit: cover" class="my-rounded-left d-none d-sm-block"></div>
+        <div class="p-4">
+          <p class="fw-semibold fs-5">Programming</p>
+          <span class="text-secondary">I can code in many languages such as JavaScript, C++, HTML and Python.</span>
+        </div>
+      </div>
+
+      <!--Skill 2-->
+      <div class="d-flex border mb-3 shadow-sm my-round-all rounded">
+        <div class="p-4">
+          <p class="fw-semibold fs-5">Communication Skills🌍</p>
+          <span class="text-secondary">I can explain things clearly and help others understand. I also listen to people and work well with a team.</span>
+        </div>
+        <div class="my-round-right"><img src="/image/oo.jpg" width="150px" height="150px" style="object-fit: cover" class="my-rounded-left d-none d-sm-block"></div>
+      </div>
+
+      <!--Skill 3-->
+      <div class="d-flex border mb-3 shadow-sm my-round-all rounded">
+        <div class="my-round-left"><img src="/image/tt.jpg" width="150px" height="150px" style="object-fit: cover" class="my-rounded-left d-none d-sm-block"></div>
+        <div class="p-4">
+          <p class="fw-semibold fs-5">Beatbox</p>
+          <span class="text-secondary">I can beatbox. I've been practicing it since I was in middle school. Now I can do it even better.</span>
+        </div>
+      </div>
+    </div>
+   
+    
+    <!--Credit-->
+    <p class="text-center text-secondary m-4">Portfolio CPE by Phurin Inthajak</p>
+
+
+
+  </body>
 </html>
